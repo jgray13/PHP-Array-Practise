@@ -22,7 +22,7 @@ foreach ($animal_sounds as $key => $value) {
 <div class="container">
 <?php
 asort($animal_sounds);
-echo '<br><br><b><p>Sorted into value order (asort)):</p></b>';
+echo '<br><br><b><p>Sorted into value order - asort():</p></b>';
 foreach ($animal_sounds as $key => $value) {
     echo '<br>&bull;', $key . ' - ' . $value;
 }
@@ -31,7 +31,7 @@ foreach ($animal_sounds as $key => $value) {
 <div class="container">
 <?php
 ksort($animal_sounds);
-echo '<br><br><b><p>Sorted into key order (ksort()):</p></b>';
+echo '<br><br><b><p>Sorted into key order - ksort():</p></b>';
 foreach ($animal_sounds as $key => $value) {
 	echo '<br>&bull;', $key . ' - ' . $value;
 }
@@ -40,7 +40,7 @@ foreach ($animal_sounds as $key => $value) {
 <div class="container">
 <?php
 sort($animal_sounds);
-echo '<br><br><b><p>Sorted into value order - without keys (sort()):</p></b>';
+echo '<br><br><b><p>Sorted into value order - without keys - sort():</p></b>';
 foreach ($animal_sounds as $key => $value) {
 	echo '<br>&bull;', $key . ' - ' . $value;
 }
