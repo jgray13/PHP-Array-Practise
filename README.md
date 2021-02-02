@@ -11,7 +11,7 @@ arsort(),
 
 krsort(),
 
-rsort(),
+rsort()
 
 
 To do: Include a link to add new array items
