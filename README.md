@@ -1,5 +1,5 @@
 # PHP-Array-Practise
-Arrays sorted with:
+PHP arrays sorted with:
 
 asort(),
 
