@@ -1,17 +1,17 @@
 # PHP-Array-Practise
-PHP arrays sorted with:
+Arrays sorted with PHP functions:
 
-asort(),
+&bull; asort()
 
-ksort(),
+&bull; ksort()
 
-sort(),
+&bull; sort()
 
-arsort(),
+&bull; arsort()
 
-krsort(),
+&bull; krsort()
 
-rsort()
+&bull; rsort()
 
 
-To do: Include a link to add new array items
+To do: Include a link to add new array items.
