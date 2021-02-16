@@ -1,8 +1,8 @@
-<body>
-<main>
 <?php
 require("layout.view.php");
 ?>
+<body>
+<main>
 <h1>PHP: Sorting Arrays</h1>
 <div class="outer">
 <div class="container-top">
