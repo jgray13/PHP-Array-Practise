@@ -1,0 +1,110 @@
+html {
+	position: relative;
+	min-height: 100%;
+	width: 100%;
+}
+body {
+    font-family: Helvetica, "sans-serif";
+    font-size: 15px;
+	font-weight: 500;
+    color: #121212;
+	line-height: 110%;
+    margin: 0 auto;
+	width: 100%;
+    min-height: 100%;
+	background-color: #fdfdfc;
+}
+main {
+	width: 100%;
+	margin: 0 auto 50px;
+	}
+ul {
+	margin: 0;
+}
+br {
+	line-height: 30%;
+}
+p {
+	margin: 0 auto;
+	text-align: left;
+ }
+h1 {
+	margin: 20px auto;
+	text-align: center;
+	font-size: 30px;
+	}
+ /*
+h4 {
+	font-size: 18px;
+	margin: 10px auto 0;
+}*/
+.outer {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: flex-end;
+	align-items: flex-start;
+	flex-basis: 96%;
+	margin: 0 2%;
+}
+.container-top {
+	width: 48%;
+	margin: 0 1% 10px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.container {
+	width: 48%;
+	margin: 0 1% 10px;
+	display: flex;
+	flex-direction: column;
+}
+/*
+media queries
+*/
+@media only screen and (min-width: 370px) {
+    body {
+	    font-size: 16px;
+    }
+}
+@media only screen and (min-width: 650px) {
+	.outer {
+		width: 98%;
+		margin: 0 1%;
+	}
+    .container-top {
+	    width: 43%;
+    	margin: 0 1% 10px;
+    }
+    .container {
+	    width: 31%;
+	    margin: 0 1% 10px;
+    }
+}
+@media only screen and (min-width: 768px) {
+	.outer {
+		width: 90%;
+		margin: 0 5%;
+	}
+}
+@media only screen and (min-width: 900px) {
+	.outer {
+		width: 80%;
+		margin: 0 10%;
+	}
+}
+@media only screen and (min-width: 1200px) {
+	ul {
+		padding-left: 15%;
+	}
+}
+@media only screen and (min-width: 1600px) {
+	.outer {
+		width: 50%;
+		margin: 0 25%;
+	}
+	ul {
+		padding-left: 5%;
+	}
+}
