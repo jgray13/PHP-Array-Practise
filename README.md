@@ -1,4 +1,4 @@
-# PHP-Array-Practise
+# PHP-Sorting-Arrays
 Arrays sorted with PHP functions:
 
 &bull; asort()
